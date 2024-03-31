@@ -2,6 +2,7 @@ using UnityEngine;
 
 /// <summary>
 /// This class is responsible for making a camera follow a target object.
+/// Attach this script to the camera object, and set the target object (i.e. the player) in the inspector.
 /// </summary>
 public class CameraFollow : MonoBehaviour
 {
@@ -26,7 +27,7 @@ public class CameraFollow : MonoBehaviour
     /// </summary>
     void FixedUpdate()
     {
-        _targetPosition = new Vector3(_target.position.x + _offsetX, transform.position.y + _offsetX, _targetZ);
+        _targetPosition = new Vector3(_target.position.x + _offsetX, transform.position.y + _offsetY, _targetZ);
         _smoothedPosition = Vector3.SmoothDamp(transform.position, _targetPosition, ref _velocity, _smoothSpeed * Time.deltaTime);
 
         transform.position = _smoothedPosition;
