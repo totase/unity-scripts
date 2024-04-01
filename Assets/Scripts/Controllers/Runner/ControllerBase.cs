@@ -31,7 +31,6 @@ public class ControllerBase : MonoBehaviour
     protected bool _grounded = false;
     private const float _groundCheckRadius = 0.25f;
 
-
     [Header("Attack properties")]
     [SerializeField] protected float _attackCooldown = 0.5f;
     protected bool _canAttack = true;
