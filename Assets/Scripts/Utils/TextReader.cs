@@ -50,7 +50,6 @@ public class TextReader
     /// </summary>
     /// 
     /// <returns>The trimmed string.</returns>
-
     public static string TrimString(string stringToTrim)
     {
         string _result = stringToTrim.Replace("\n", "").Replace(" ", "");
