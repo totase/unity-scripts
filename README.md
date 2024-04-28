@@ -16,7 +16,7 @@ I have a separate repo with examples of level generation, which includes scripts
 
 ## Disclaimer
 
-Scripts may include sub-optimal code. Use at your own risk!
+Some of these scripts have been lying around for years, so they may include sub-optimal code.
 
 ### Unity version
 
