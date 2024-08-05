@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-
 /// <summary>
 /// This class is responsible for scrolling a texture on a RawImage component.
 /// Make sure the image is set to "Repeat" in the texture import settings.
